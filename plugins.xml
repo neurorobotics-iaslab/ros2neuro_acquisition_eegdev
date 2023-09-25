@@ -1,0 +1,5 @@
+<library path="ros2neuro_acquisition_eegdev">
+  <class type="rosneuro::EGDDevice" base_class_type="rosneuro::Device">
+    <description>This is the ROSNeuro Acquisition EEGDEV plugin.</description>
+  </class>
+</library>

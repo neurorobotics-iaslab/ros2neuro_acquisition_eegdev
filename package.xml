@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2neuro_acquisition_eegdev</name>
+  <version>2.0.1</version>
+  <description>ROSNEURO Acquisition Plugin Package for EEGDEV</description>
+  <author email="luca.tonin@dei.unipd.it">Luca Tonin</author>
+  <maintainer email="luca.tonin@dei.unipd.it">Luca Tonin</maintainer>
+  
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>pluginlib</depend>
+  <depend>ros2neuro_msgs</depend>
+  <depend>ros2neuro_data</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
