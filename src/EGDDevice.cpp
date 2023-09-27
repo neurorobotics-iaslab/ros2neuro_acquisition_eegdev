@@ -3,7 +3,7 @@
 
 #include "ros2neuro_acquisition_eegdev/EGDDevice.hpp"
 
-namespace rosneuro {
+namespace ros2neuro {
 
 EGDDevice::EGDDevice(void) : Device() {
     this->name_ = "egddev";

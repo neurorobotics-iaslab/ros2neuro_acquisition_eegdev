@@ -11,7 +11,7 @@
 
 #define EGD_DATA_GROUPS 3
 
-namespace rosneuro {
+namespace ros2neuro {
 
 /*! \brief      EGD device class
  * 
@@ -147,7 +147,7 @@ class EGDDevice : public Device {
 
 #include <pluginlib/class_list_macros.hpp>
 
-PLUGINLIB_EXPORT_CLASS(rosneuro::EGDDevice, rosneuro::Device)
+PLUGINLIB_EXPORT_CLASS(ros2neuro::EGDDevice, ros2neuro::Device)
 
  /*! \example test_egddevice.cpp
  * Example of the use of the EDG device and how to set up the framerate.
